@@ -20,7 +20,7 @@ function Footer() {
             >
                 &copy; Enas
                 {' '}
-                {new Date().getDate()}-{new Date().getMonth()}-{new Date().getFullYear()}
+                {/* {new Date().getDate()}-{new Date().getMonth()}-{new Date().getFullYear()} */}
 
             </Typography>
 
