@@ -1,10 +1,10 @@
 # *StoreFront React-Application*
 
-## *Author :*
+<!-- ## *Author :*
 
-* *Enas Bataineh*
+* *Enas Bataineh* -->
 
-### *Deploy*
+## *Deploy*
 
 * [Netlify](https://github.com/En-ZUH/Storefront/pulls )
 
