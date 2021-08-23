@@ -28,11 +28,4 @@ const categories = (state = initialState, action) => {
 
 export default categories;
 
-// actions:
-export const active = (name) => {
-    return {
-        type: 'ACTIVE',
-        payload: name,
-    };
-};
 
