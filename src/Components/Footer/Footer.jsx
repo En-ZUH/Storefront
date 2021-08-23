@@ -10,10 +10,8 @@ const useStyles = makeStyles((theme) => ({
 function Footer() {
     const classes = useStyles();
     return (
-        <Footer className={classes.footer}>
-            <Typography variant="h6" color="inherit" align="center" gutterBottom>
+        <footer className={classes.footer}>
 
-            </Typography>
             <Typography
                 variant="subtitle1"
                 align="center"
@@ -26,7 +24,7 @@ function Footer() {
 
             </Typography>
 
-        </Footer>
+        </footer>
     );
 }
 

@@ -17,7 +17,7 @@ function Header(props) {
                             Lady's Shop
                         </Link>
                     </Typography>
-                    <Box
+                    {/* <Box
                         display="flex"
                         width={120}
                         height={50}
@@ -26,10 +26,10 @@ function Header(props) {
                         justifyContent="center"
                         justify="center"
                         onClick={() => props.increment()}
-                    >
+                    > 
 
 
-                    </Box>
+                    </Box>*/}
                 </Grid>
             </Toolbar>
         </AppBar >
