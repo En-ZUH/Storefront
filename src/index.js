@@ -1,14 +1,11 @@
-// Dependencies
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
+
 import './index.css';
-
-//Elements
 import App from './App';
+import reportWebVitals from './reportWebVitals';
 import store from './store/index';
-
-
 
 ReactDOM.render(
   <React.StrictMode>
@@ -18,3 +15,5 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
+
+reportWebVitals();
