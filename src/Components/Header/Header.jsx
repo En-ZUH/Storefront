@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import { AppBar, Typography, Toolbar, Link, Grid, Box, } from '@material-ui/core/';
 import './Header.scss';
+import Cart from '../Cart/Cart';
 
 function Header(props) {
     return (
@@ -31,6 +32,7 @@ function Header(props) {
 
 
                     </Box>*/}
+                    <Cart />
                 </Grid>
             </Toolbar>
         </AppBar >

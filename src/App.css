@@ -3,9 +3,6 @@
   
 }
 
-
- 
-
 .App-header {
    min-height: 100vh;
   display: flex;
@@ -20,7 +17,32 @@
   /* font-size: .7rem; */
   font-weight:bold !important;
 }
+.btnCategory {
+  background-color:  white !important;
+  color:  rgba(0, 0, 0, 0.829) !important;
+ font-size:  1.3rem!important;
+ margin :2.2rem !important;
+ box-shadow: black inset ;
+ border-radius: 12px !important; 
+ box-shadow:20px 20px 50px 10px inset rgba(216, 112, 147, 0.925) !important;  
+}
 
-
+ .dataCardName {
+  color:  black !important;
+  text-align: center !important;
+}
+.dataCardPrice {
+  color: rgba(0, 0, 0, 0.603)!important;
+  text-align:center
+}
+.dataCardStock{
+  color:  black !important;
+  text-align: center !important;
+}
  
- 
+.choiceBtn {
+  color: black!important;
+ background-color:  #ec5858b0 !important;
+ margin-left: 1.5rem !important;
+}
+  

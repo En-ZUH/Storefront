@@ -1,10 +1,11 @@
 import { Typography, makeStyles } from '@material-ui/core/';
-
+import '../../App.css'
 const useStyles = makeStyles((theme) => ({
     footer: {
         color: 'white',
-        backgroundColor: '#94D0CC',
+        backgroundColor: 'black',
         padding: theme.spacing(1.5),
+
 
     },
 }));
@@ -21,7 +22,8 @@ function Footer() {
             >
                 &copy; Enas
                 {' '}
-                {new Date().getDate()}-{new Date().getMonth()}-{new Date().getFullYear()}
+                {/* {new Date().getDate()}-{new Date().getMonth()}-{new Date().getFullYear()} */}
+                {new Date().getFullYear()}
 
             </Typography>
 
