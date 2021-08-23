@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { connect } from 'react-redux';
 import {
     Container, Typography, Grid, Card, CardMedia, CardContent, CardActions, Button, makeStyles,

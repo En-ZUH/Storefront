@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { AppBar, Typography, Toolbar, Link, Grid, Box, } from '@material-ui/core/';
 import './Header.scss';
 
