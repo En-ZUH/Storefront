@@ -1,12 +1,12 @@
 # *StoreFront React-Application*
 
-### *Author :*
+## *Author :*
 
 * *Enas Bataineh*
 
 ### *Deploy*
 
-* [Netlify]( )
+* [Netlify](https://github.com/En-ZUH/Storefront/pulls )
 
 ### *PULL REQUESTS*
 
@@ -15,9 +15,10 @@
 ***
 ***
 ***
-## Phase 1 :
 
-###  *Redux*
+## Phase 1
+
+### *Redux*
 
 * *Requirements:*
 
