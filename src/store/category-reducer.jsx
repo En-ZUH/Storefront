@@ -8,7 +8,7 @@ let initialState = {
         {
             name: 'Fragrance',
             display_name: 'Fragrance',
-            description: 'Make your Life Easier',
+            description: 'Welcome to Fragrance Section',
         },
 
     ],

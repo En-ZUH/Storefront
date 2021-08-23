@@ -1,12 +1,12 @@
 # *StoreFront React-Application*
 
-<!-- ## *Author :*
+## *Author :*
 
-* *Enas Bataineh* -->
+* *Enas Bataineh*
 
 ## *Deploy*
 
-* [Netlify](https://github.com/En-ZUH/Storefront/pulls )
+* [Netlify](https://lady-store-react-app.netlify.app/)
 
 ### *PULL REQUESTS*
 
