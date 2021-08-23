@@ -1,8 +1,5 @@
-/* eslint-disable no-unused-vars */
 import { connect } from 'react-redux';
-import {
-    Container, Typography, Grid, Card, CardMedia, CardContent, CardActions, Button, makeStyles,
-} from '@material-ui/core/';
+import { Container, Typography, Grid, Card, CardMedia, CardContent, makeStyles, } from '@material-ui/core/';
 import { increment } from '../../store/product-reducer';
 
 const useStyles = makeStyles((theme) => ({
@@ -30,7 +27,7 @@ const Status = (props) => {
             <Grid container spacing={4}>
                 {props.products.products.map((product) => {
                     return (
-                        <Grid item key={product._id} xs={12} sm={6} md={4}>
+                        <Grid item key={product._id} xs={12} sm={6} md={4} border-radius="25% 10%">
                             <Card className={classes.card}>
                                 <CardMedia
                                     className={classes.cardMedia}
@@ -42,6 +39,7 @@ const Status = (props) => {
                                         {product.name}
                                     </Typography>
                                     <Typography>Price: ${product.price}</Typography>
+                                    <Typography>In-Stock:  {product.inStock} items</Typography>
                                 </CardContent>
 
                             </Card>

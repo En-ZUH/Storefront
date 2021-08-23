@@ -66,8 +66,8 @@ let initialState = {
 };
 
 const products = (state = initialState, action) => {
-    let { typename, payload } = action;
-    switch (typename) {
+    let { type, payload } = action;
+    switch (type) {
         case 'ACTIVE':
             let products = initialState.products.filter((product) =>
                 product.category === payload ? product.category : null
@@ -85,13 +85,13 @@ export default products;
 
 export const active = (categoryName) => {
     return {
-        typename: 'ACTIVE',
+        type: 'ACTIVE',
         payload: categoryName,
     };
 };
 
 export const increment = () => {
     return {
-        typename: 'INCREMENT',
+        type: 'INCREMENT',
     };
 };

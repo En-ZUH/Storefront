@@ -7,7 +7,7 @@ import Footer from './Components/Footer/Footer.jsx'
 
 function App() {
   return (
-    <React.Fragment>
+    <React.Fragment className="App">
       <Header />
       <Body />
       {/* <Active /> */}

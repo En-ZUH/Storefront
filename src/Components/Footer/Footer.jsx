@@ -5,6 +5,7 @@ const useStyles = makeStyles((theme) => ({
         color: 'white',
         backgroundColor: '#94D0CC',
         padding: theme.spacing(1.5),
+
     },
 }));
 function Footer() {
@@ -20,7 +21,7 @@ function Footer() {
             >
                 &copy; Enas
                 {' '}
-                {/* {new Date().getDate()}-{new Date().getMonth()}-{new Date().getFullYear()} */}
+                {new Date().getDate()}-{new Date().getMonth()}-{new Date().getFullYear()}
 
             </Typography>
 
