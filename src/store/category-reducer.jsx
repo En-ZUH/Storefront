@@ -1,16 +1,20 @@
 let initialState = {
     categories: [
         {
-            name: 'Beauty',
-            display_name: 'Beauty',
-            description: 'Welcome to Beauty Section',
+            name: 'clothing',
+            display_name: 'Baby',
+            description: 'Welcome to Clothes Section',
         },
         {
-            name: 'Fragrance',
-            display_name: 'Fragrance',
-            description: 'Welcome to Fragrance Section',
+            name: 'electronics',
+            display_name: 'Smart devices',
+            description: 'Welcome to Electronics Section',
         },
-
+        {
+            name: 'food',
+            display_name: 'Snacks',
+            description: 'Welcome to Food Section',
+        },
     ],
     typeName: {},
 };

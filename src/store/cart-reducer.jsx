@@ -42,9 +42,9 @@ export default cart;
 function uniqueArr(arr) {
     const map = new Map();
     for (const item of arr) {
-        if (!map.has(item.id)) {
-            map.set(item.id, {
-                id: item.id,
+        if (!map.has(item._id)) {
+            map.set(item._id, {
+                _id: item._id,
                 name: item.name,
                 url: item.url,
                 category: item.category,
@@ -53,9 +53,9 @@ function uniqueArr(arr) {
                 count: item.count,
             });
         } else {
-            map.delete(item.id);
-            map.set(item.id, {
-                id: item.id,
+            map.delete(item._id);
+            map.set(item._id, {
+                _id: item._id,
                 name: item.name,
                 url: item.url,
                 category: item.category,
