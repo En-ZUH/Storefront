@@ -18,13 +18,14 @@
   font-weight:bold !important;
 }
 .btnCategory {
+  
   background-color:  white !important;
   color:  rgba(0, 0, 0, 0.829) !important;
  font-size:  1.3rem!important;
- margin :2.2rem !important;
+ margin :1.5rem !important;
  box-shadow: black inset ;
  border-radius: 12px !important; 
- box-shadow:20px 20px 50px 10px inset rgba(216, 112, 147, 0.925) !important;  
+ box-shadow:20px 20px 50px 10px inset rgba(0, 0, 255, 0.534) !important;  
 }
 
  .dataCardName {

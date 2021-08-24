@@ -14,6 +14,8 @@ const useStyles = makeStyles((theme) => ({
 
 const Store = (props) => {
     const classes = useStyles();
+    let category = props.activeList.typeName.display_name;
+
     let description = props.activeList.typeName.description;
     return (
         <main>
@@ -29,18 +31,18 @@ const Store = (props) => {
                         color="textPrimary"
                         mt="3"
                     >
-                        {description}
+                        {category}
                     </Typography>
                     <br />
-                    {/* <Typography
+                    <Typography
                         component="p"
                         variant="h5"
                         align="center"
                         color="textSecondary"
                         gutterBottom
-                    > 
-
-                    </Typography>*/}
+                    >
+                        {description}
+                    </Typography>
                 </Container>
             </div>
             <Products className="main" />

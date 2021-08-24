@@ -16,22 +16,10 @@ function Header(props) {
                 >
                     <Typography variant="h5" color="" noWrap className='headerStyle'  >
                         <Link color="inherit" href="/">
-                            Lady's Shop
+                            One-stop shop
                         </Link>
                     </Typography>
-                    {/* <Box
-                        display="flex"
-                        width={120}
-                        height={50}
-                        bgcolor=""
-                        alignItems="center"
-                        justifyContent="center"
-                        justify="center"
-                        onClick={() => props.increment()}
-                    > 
 
-
-                    </Box>*/}
                     <Cart />
                 </Grid>
             </Toolbar>
