@@ -87,7 +87,7 @@ Application Flow:
 * Clicks the delete button on an item and sees the item removed
 * Changes the quantity selector on an item and sees the cart total change
 
-[Pull Request](https://github.com/En-ZUH/Storefront/pull/9)
+### [Pull Request](https://github.com/En-ZUH/Storefront/pull/9)
 
 ***
 ***
